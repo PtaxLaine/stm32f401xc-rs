@@ -1,0 +1,11 @@
+[package]
+name = "stm32f401xc"
+version = "0.1.0"
+authors = ["Andrei V <andrei@ptaxa.net>"]
+
+[dependencies]
+stm32f401 = {git="https://github.com/PtaxLaine/stm32f401-rs", "rev"="1c94f16ef4921f84124b3b579139c9ed7bc1f2ff"}
+cty = "0.1.5"
+
+[build-dependencies]
+bindgen = "0.39.0"
